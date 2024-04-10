@@ -1,0 +1,21 @@
+==========
+Args:Namespace(arch='resnet50', batch_size=8, dataset='sysu', erasing_p=0.5, gpu='0', heads=12, img_h=288, img_w=144, log_path='log/', lr=0.1, margin=0.3, method='agw', mlp_dim=2048, mode='all', model_path='save_model/', num_pos=4, optim='sgd', qkv_bias=True, resume='', save_epoch=20, seed=0, temperature=0.02, test_batch=64, test_only=False, trial=1, vis_log_path='log/vis_log/', vit_dim=768, workers=0)
+==========
+==> Loading data..
+Dataset sysu statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  visible  |   395 |    22258
+  thermal  |   395 |    11909
+  ------------------------------
+  query    |    96 |     3803
+  gallery  |    96 |      301
+  ------------------------------
+Data Loading Time:	 15.243
+==> Building model..
+==> Start Training...
+==> Preparing Data Loader...
+0
+[20927 20945 20945 ...  6753  6784  6761]
+[10597 10605 10597 ...  2900  2898  2916]
